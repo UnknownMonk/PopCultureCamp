@@ -17,7 +17,7 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes = require("./routes/index")
 
 
-mongoose.connect("mongodb: //UnknownMonk:&roundcl0ud@ds239988.mlab.com:39988/yelpcamp");
+mongoose.connect("mongodb://UnknownMonk:&roundcl0ud@ds239988.mlab.com:39988/yelpcamp");
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
